@@ -1,0 +1,35 @@
+<!-- 每日一句 -->
+<view class="header_container">
+  <image class="header_image" mode="aspectFill" src="{{header_image_url}}"/>
+  <view class="header_text_container">
+    <view class="header_text_content">{{header_content}}</view>
+    <view class="header_text_note">{{header_note}}</view>
+  </view>
+</view>
+
+<!-- 日期 -->
+<view class="current_day_container">
+  <view class="current_day">{{current_day}}</view>
+</view>
+
+<!-- 农历 -->
+<view class="shadow_container">
+  <view class="lunar_calendar">{{lunar_calendar}}</view>
+  <view class="lunar_des">{{lunar_des}}</view>
+  <text class="lunar_detail">{{lunar_detail}}</text> 
+</view>
+
+<!-- 宜、忌 -->
+<view class="taboo_container">
+  <view class="shadow_container">
+    <view class="taboo_text_avoid">{{taboo_text_avoid}}</view>
+  </view>
+  <view class="shadow_container">
+    <view class="taboo_text_suit">{{taboo_text_suit}}</view>
+  </view>
+</view>
+
+<!-- 历史上的今天 -->
+<!-- <view class="history_today_container" onTap="openHistoryToday" hover="true" hover-class="history_today_container_hover">
+  <image class="history_today_image" src="../../assets/images/ic_history.png" mode="aspectFill"/>
+</view> -->

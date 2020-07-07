@@ -1,0 +1,99 @@
+.header_container{
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+.header_image{
+  width: 120%;
+  height: 120%;
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+.header_text_container{
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+.header_text_content{
+  color: white;
+  font-size: 16px;
+  font-family: monospace;
+}
+.header_text_note{
+  color: white;
+  font-size: 14px;
+}
+.current_day_container{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.history_today_container{
+  width: 55px;
+  height: 55px;
+  background: #2196F3;
+  position: fixed;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:rgba(0, 132, 255, 0.8) 0px 0px 20px;
+  bottom: 30px;
+  right: 15px;
+}
+.history_today_container_hover{
+  background: #2195f3cc;
+}
+.history_today_image{
+  width: 25px;
+  height: 25px;
+}
+.current_day{
+  background-image: radial-gradient(#58b5ff,#ffffff);
+  width: 150px;
+  height: 150px;
+  font-size: 80px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+}
+.lunar_calendar{
+  font-size: 20px;
+  color: #3b424c;
+  font-weight: bold;
+  float: left;
+}
+.lunar_des{
+  font-size: 14px;
+  color: #3b424c;
+  float: right;
+}
+.lunar_detail{
+  display: block;
+  font-size: 14px;
+  color: #3b424c;
+  clear: both;
+}
+.shadow_container{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  color: #008000;
+  box-shadow:rgba(0, 132, 255, 0.1) 0px 0px 20px;
+}
+.taboo_container{
+  padding-bottom: 100px;
+}
+.taboo_text_avoid{
+  font-size: 15px;
+  color: rgba(255, 0, 0, 0.5);
+}
+.taboo_text_suit{
+  font-size: 15px;
+  color: rgba(0, 128, 0, 0.5);
+}
